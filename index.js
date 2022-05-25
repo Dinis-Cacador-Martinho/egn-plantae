@@ -37,6 +37,8 @@ function loop () {
         i = 0
       }
     }
+
+    textDisplay.innerHTML = 'Preparado para ' + currentPhrase.join('')
   }
   const spedUp = Math.random() * (80 -50) + 50
   const normalSpeed = Math.random() * (300 -200) + 150
